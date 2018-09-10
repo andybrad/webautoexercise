@@ -66,6 +66,7 @@ Currently username and password test data sits in the TestBase class. A better t
 The tests could be run as part of a continous integration build using tool like Jenkins.<br>
 The tests could also be run on differenet browsers/platforms. This would require downloading more drivers e.g. IEDriverServer to test on IE.<br>
 The tests could also be run on differenet browsers/platforms via a cloud testing service such as Browser Stack or Sauce Labs.
+With regards to "Scenario 2: Update Personal Information (First Name) in My Account", further tests could be added to test the save of personal details being unsuccssful.
 
 ## Acknowledgments
 
