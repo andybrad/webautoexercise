@@ -30,7 +30,7 @@ The following suggested tools and libraries (or similar substitutes) should be u
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Installing
+### Install the following
 
 - [JAVA SE 8](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html) (Java 9 is not yet supported by Cucumber) 
 - [Maven](https://maven.apache.org/index.html) - version 3.3.1 or higher
@@ -53,8 +53,8 @@ The tests are set up to run in Google Chrome on either Windows or Mac OS (no ext
 
 ### Test Description
 
-In the feature file "OrderWorkflow" there is one scenario called "Customer is able to order an item and verify the purchase in order history". This aims to test Scenario 1 in the project brief.<br> 
-In the feature file "MyAccount" there is one scenario called "Customer is able to change their first name". This aims to test Scenario 2 in the project brief. 
+In the feature file "OrderWorkflow" there is one scenario called "Customer is able to order an item and verify the purchase in order history". This aims to test Scenario 1 of the project brief.<br> 
+In the feature file "MyAccount" there is one scenario called "Customer is able to change their first name". This aims to test Scenario 2 of the project brief. 
 
 
 ## Improvements
@@ -71,5 +71,5 @@ With regards to "Scenario 2: Update Personal Information (First Name) in My Acco
 ## Acknowledgments
 
 * This is the first time I have done anything in JAVA and its related tooling. After a few tutorials from different sources, I found setting up the Maven project using the archetype created by the Cucumber team the best option.
-* Thanks to Joe for making sure I hadn't done antyhing stupid!
+* Thanks to Joe for making sure I didn't do antyhing stupid!
 
