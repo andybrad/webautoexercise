@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Running the tests
 
 There are 2 way to run the tests:
-1. Open the project in IntelliJ, click the green triangle button in the top right, or in the project directory navigate to src > test > resources to find the feature files, right click and select Run tests.
+1. Open the project in IntelliJ navigate to src > test > resources > webautoexercise to find the feature files, right click webautoexercise, select Run tests to run all tests. To run tests for an individual feature file, right click the feature and Run tests. 
 
 2. Open a command/terminal window, CD to the directory where the project is located and run the following:
 
