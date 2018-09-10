@@ -63,13 +63,14 @@ Currently username and password test data sits in the TestBase class. A better t
 - Move the username and password to a properties/config file and reference in code
 - Move the username and password to another data source like excel and reference in code
 
-The tests could be run as part of a continous integration build using tool like Jenkins.<br>
+The tests could be run as part of a continous integration build using a tool like Jenkins.<br>
 The tests could also be run on differenet browsers/platforms. This would require downloading more drivers e.g. IEDriverServer to test on IE.<br>
 The tests could also be run on differenet browsers/platforms via a cloud testing service such as Browser Stack or Sauce Labs.
 With regards to "Scenario 2: Update Personal Information (First Name) in My Account", further tests could be added to test the save of personal details being unsuccssful.
+Instead of extending the and calling to instatiate new classes, dependency injection can be used to pass data between differenet step definition classes. There are several DIs to choose from, however Picocontainer seems to be the most popular.  
 
 ## Acknowledgments
 
 * This is the first time I have done anything in JAVA and its related tooling. After a few tutorials from different sources, I found setting up the Maven project using the archetype created by the Cucumber team the best option.
-* Thanks to Joe for making sure I didn't do antyhing stupid!
+* Thanks to Joe for making sure I didn't do anything stupid!
 
