@@ -67,6 +67,7 @@ The tests could be run as part of a continous integration build using a tool lik
 The tests could also be run on differenet browsers/platforms. This would require downloading more drivers e.g. IEDriverServer to test on IE.<br>
 The tests could also be run on differenet browsers/platforms via a cloud testing service such as Browser Stack or Sauce Labs.<br>
 With regards to "Scenario 2: Update Personal Information (First Name) in My Account", the test should also verify the name has changed either via the UI or checking the database. Further tests could be added to test the save of personal details being unsuccssful.<br>
+In reality, you would build up a large test step that navigates through a work flow via smaller test steps that execute smaller bits of functionality e.g. in OrderWorkflow.feature, the "When I confirm payment for my order" step could be made out of other smaller step definitions.<br>
 Instead of extending the and calling to instatiate new classes, dependency injection can be used to pass data between differenet step definition classes. There are several DIs to choose from, however Picocontainer seems to be the most popular.  
 
 ## Acknowledgments
